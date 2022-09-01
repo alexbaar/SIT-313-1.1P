@@ -1,0 +1,95 @@
+.container {
+    position: relative;
+    width: 100%;
+}
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.profile{
+    padding-top: 4%;
+    text-align: center;
+}
+
+.d1{
+    white-space: nowrap;
+    color: blue;
+    text-align: center;
+    font-size: 10px;
+
+}
+.line{
+    margin-left: 43%;
+    
+    width: 100px;
+    height: 20px;
+    border-bottom:  2px solid rgb(19, 53, 248) ;
+    
+    
+   
+}
+.d3{
+    text-align: center;
+    white-space: nowrap;
+    color: blue;
+    font-size: 25px;
+    padding-top: 2%;
+    
+}
+
+.text {
+    position:absolute;
+    bottom: 15%;
+    background-color: #3f434283;
+    color: white;
+    font-size: 10px;
+    width: 100%;
+    transition: 0.5s ease;
+    opacity: 0;
+    padding: 1%;
+    text-align: center;
+}
+
+.container:hover .text{
+    opacity: 1;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -1%;
+    padding-right: 2%;
+    padding-left: 0%;
+    padding-bottom: 2%;
+    text-align: left;
+}
+
+.active {
+    color: rgb(50, 128, 244);
+}
+
+li {
+    display:inline;
+}
+
+.work_gallery{
+    text-align: center;
+    padding: 5%;
+    padding-top: 2%;
+}
+
+.work_gallery:hover{
+    opacity: 0.8;
+}
+
+.rounded{
+    border-radius: 25px;
+}
+
+.my_photos{
+    position: relative;
+    text-align: center;
+}
